@@ -14,6 +14,8 @@
 
 
     - Ir a la pagina de anaconda https://www.anaconda.com/products/distribution e intalar la version para linux
-    - Ejecutar el siguiente comando `bash ~/Descargas/Anaconda3-2021.05-Linux-x86_64-sh` 
+    - Ejecutar el siguiente comando `bash ~/Downloads/Anaconda3-2022.05-Linux-x86_64-sh` 
 
+    -Intalar plugins de python y jupiter
 
+https://github.com/rlsesenes/Python
