@@ -1,1 +1,19 @@
+# Introducción a Python 
+
+1. Installar Python 
+    Emplear el codigo `sudo apt-get install python3` esto para instalar la version 3 de python. 
+2. Realizar la siguiente actividad: 
+
+    - Ejecutar Python desde la consolo con el siguiene codigo: 
+
+        `nano hola.py`
+
+        * Con esto se abrirá la pantalla de  edicion donde es necesario colocar la siguiente instrucción `print ("Hola Python")`para guardar con ctrl+o y salir con ctrl+X
+
+        * Al regresar a la terminal ejecutar `sudo python3 hola.py` lo cual despliega el texto mandado a impresión en el archivo 
+
+
+    - Ir a la pagina de anaconda https://www.anaconda.com/products/distribution e intalar la version para linux
+    - Ejecutar el siguiente comando `bash ~/Descargas/Anaconda3-2021.05-Linux-x86_64-sh` 
+
 
