@@ -1,0 +1,17 @@
+#Introducción a reconocimiento Facial 
+
+
+1. Instalar DeepFace siguiendo las intrucciones de la pagina https://github.com/serengil/deepface
+
+2. con el código `sudo apt install python3-pip`
+3. Despues introducir `-pip install deepface`
+4. Crear un repositorio llamado "Apertura de puertas por reconocimiento facila "
+
+5. Dentro del repositorio crear una carpeta DeepFace y dentro de ella una llamada ejemplos y otra faces para colocar en ella las imagnenes 
+
+6. Buscar la foto de una persona y colocarla en Faces
+
+res maxima 800x800 min 120 x10 
+
+7. realizar un programa con extensión .py 
+
