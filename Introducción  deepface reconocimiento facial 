@@ -1,4 +1,4 @@
-#Introducción a reconocimiento Facial 
+# Introducción a reconocimiento Facial 
 
 
 1. Instalar DeepFace siguiendo las intrucciones de la pagina https://github.com/serengil/deepface
@@ -9,9 +9,20 @@
 
 5. Dentro del repositorio crear una carpeta DeepFace y dentro de ella una llamada ejemplos y otra faces para colocar en ella las imagnenes 
 
-6. Buscar la foto de una persona y colocarla en Faces
+6. Buscar la foto de una persona y colocarla en la carpeta Faces la cual puede tener una resolución maxima 800x800 y min 120 x10 
 
-res maxima 800x800 min 120 x10 
+7. Crear un  un programa con extensión .py el cual contendra el siguiente código: 
 
-7. realizar un programa con extensión .py 
+`from deepface import DeepFace 
+obj = DeepFace.analyze(img_path = "/home/sesenes/Documents/GitHub/Apertura-de-puertas-por-reconocimiento-facila-/DeepFace/Faces/image.jpeg", actions = ['age', 'gender', 'race', 'emotion'])
+print ("El resultado del analisi es: ")
+print (obj)`
+
+8. Una vez colocado el código en img_path = "" se coloca entre comillas la dirección de la imagen en carpeta colocando su extension correspondiente como se mostró en el código anterior. 
+
+9. Se procede a sincronizar los cambios de VSC con Github desktop para que los cambios se guarden en carpta
+10. Se dirige ahora hacia la subcarpeta creada en el repositorio Apertura de puertas por reconocimiento facial la cual se denomino Ejemplos y se abre la terminal para correr desde ahí el código ya que al hacerlo desde VSC este toma demasiado tiempo.
+11. Abierta la terminal colocar el código python3 [nombre del archivo]
+
+Nota: Es importante que el nombre del archivo no contenga espacios ya que eso genera que no se encuentre el mismo. 
 
