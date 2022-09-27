@@ -29,5 +29,10 @@ Nota: Es importante que el nombre del archivo no contenga espacios ya que eso ge
 
 12 realizar el ejemplo de Face verificación 
 
-agregar dos fotos similares en carpeta Faces y crear el programa 
+para esto es necesario agregar dos fotos similares en carpeta Faces y crear el programa siguiendo los pasos anteriores y sustituyendo los path de cada figura en el siguiente código 
+
+`result = DeepFace.verify(img1_path = "img1.jpg", img2_path = "img2.jpg")`
+
+se recomiendo correrlo nuevamente desde terminal verificando el nombre del archvo.py corresponda. 
+
 
